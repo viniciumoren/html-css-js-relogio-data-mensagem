@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(red,white,blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.relogio{
+    width: 600px;
+    height: 200px;
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.relogio div{
+    background: black;
+    color: white;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.relogio p{
+    font-size: 150px;
+}
